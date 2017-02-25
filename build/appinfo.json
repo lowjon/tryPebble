@@ -1,0 +1,35 @@
+{
+    "versionLabel": "1.0", 
+    "projectType": "rocky", 
+    "name": "obey", 
+    "messageKeys": {
+        "ControlKeyResetRequest": 1, 
+        "ControlKeyUnsupportedError": 4, 
+        "ControlKeyChunk": 3, 
+        "ControlKeyResetComplete": 2
+    }, 
+    "companyName": "MakeAwesomeHappen", 
+    "enableMultiJS": true, 
+    "sdkVersion": "3", 
+    "capabilities": [], 
+    "appKeys": {
+        "ControlKeyResetRequest": 1, 
+        "ControlKeyUnsupportedError": 4, 
+        "ControlKeyChunk": 3, 
+        "ControlKeyResetComplete": 2
+    }, 
+    "watchapp": {
+        "watchface": true
+    }, 
+    "longName": "obey", 
+    "displayName": "obey", 
+    "shortName": "obey", 
+    "main": {
+        "rockyjs": "src/rocky/index.js", 
+        "pkjs": "src/pkjs/index.js"
+    }, 
+    "resources": {
+        "media": []
+    }, 
+    "uuid": "84f49390-25ff-4929-aa09-d30dabc9ddfa"
+}
